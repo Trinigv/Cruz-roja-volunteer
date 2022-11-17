@@ -13,6 +13,18 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(cors());
 app.use(express.json());
 app.use('/api', router);
+app.use(express.static(path.join(__dirname, './client/build')));
+
+app.get('*', (_, res) => {
+	res.sendFile(
+		path.join(__dirname, './client/build/index.html'),
+		function (err) {
+			if (err) {
+				res.send(err);
+			}
+		}
+	);
+});
 
 const mongoose = require('mongoose');
 
