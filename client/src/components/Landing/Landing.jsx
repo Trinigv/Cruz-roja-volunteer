@@ -3,6 +3,7 @@ import { Text, Box, Image, Button } from '@chakra-ui/react';
 import { NavBar } from '../NavBar';
 import CruzRoja from '../../Images/CruzRoja.arg.png';
 import { Footer } from '../Footer';
+import { Link } from 'react-router-dom';
 
 export default function Landing() {
 	return (
@@ -22,9 +23,11 @@ export default function Landing() {
 					</div>
 				</div>
 				<div className='acc'>
-					<Button classname='but' size='lg'>
-						Acceder
-					</Button>
+					<Link to='/register'>
+						<Button classname='but' size='lg'>
+							Acceder
+						</Button>
+					</Link>
 				</div>
 			</body>
 			<Footer />
