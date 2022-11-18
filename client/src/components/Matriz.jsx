@@ -68,7 +68,6 @@ export default function Matriz() {
 					</Table>
 				</TableContainer>
 			</Box>
-			<Footer />
 		</>
 	);
 }

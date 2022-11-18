@@ -106,7 +106,6 @@ export const Register = () => {
 						<LoginUser />
 					</div>
 				</div>
-				<Footer />
 			</div>
 		</>
 	);

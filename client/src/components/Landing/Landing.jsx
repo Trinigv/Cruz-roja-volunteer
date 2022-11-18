@@ -30,7 +30,6 @@ export default function Landing() {
 					</Link>
 				</div>
 			</body>
-			<Footer />
 		</div>
 	);
 }

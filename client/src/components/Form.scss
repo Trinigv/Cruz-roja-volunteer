@@ -23,7 +23,7 @@ input{
 
 form {
   padding: $ruler;
-  width: $ruler*25;
+  width: $ruler*30;
   margin: 0 auto;
 }
 
@@ -34,11 +34,9 @@ form {
   color: black;
 }
 
-button, input {
-  border: 0;
-  outline: 0;
+button {
   font-size: $ruler;
-  border-radius: $ruler*20;
+  border-radius: $ruler;
   padding: $ruler;
   background-color:$color-bg;
   height: 50px;
@@ -104,19 +102,22 @@ button {
       margin-right: 0; 
     }
   }
-  
-  &.red {
-    display: block;
-    width: 100%;
-    color: white;
-    background-color: #AE1100;
-    
-  }
+}
+
+
+.red {
+  display: block;
+  color: white;
+  background-color: #AE1100;
+  width: 70%;
 }
 
 
 .divbutt{
   padding: 5%;
+  display: flex;
+  align-items: center;
+  padding-left: 30%;
 }
 
 .res{

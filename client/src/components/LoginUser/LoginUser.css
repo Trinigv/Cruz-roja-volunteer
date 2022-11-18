@@ -9,7 +9,7 @@
     padding: 8px;
     margin: 0;
     display: inline-block;
-    border: 1px solid #ccc;
+    border:  solid #ccc;
     }
 
 .vol{
@@ -24,7 +24,7 @@
     margin: 10px 0;
     border: none;
     cursor: grab;
-    width: 90%;
+    width: 50%;
 }
 
 .title {
@@ -43,6 +43,7 @@ button:hover {
 .container {
     padding: 16px 0;
     text-align:left;
+    padding-bottom: 15%;
  }
 
 .lab{

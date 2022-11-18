@@ -119,14 +119,13 @@ const Formulario = () => {
 				</label>
 				<div className='divbutt'>
 					<button
-						class='red'
+						className='red'
 						type='button'
 						onClick={(event) => enviarDatos(event)}>
 						Registrar
 					</button>
 				</div>
 			</form>
-			<Footer />
 		</>
 	);
 };

@@ -6,6 +6,7 @@ import { Register } from './components/RegisterUser/RegisterUser';
 import React from 'react';
 import { ChakraProvider } from '@chakra-ui/react';
 import Landing from './components/Landing/Landing';
+import { Footer } from './components/Footer';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 				<Route exact path='/form' element={<Form />} />
 				<Route exact path='/register' element={<Register />} />
 			</Routes>
+			<Footer />
 		</ChakraProvider>
 	);
 }
